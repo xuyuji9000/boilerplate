@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
-  entry: "./js/app.js",
+  entry: "./src/app.js",
   output: {
     path: __dirname + "/dist",
     filename: "app.bundle.js"
