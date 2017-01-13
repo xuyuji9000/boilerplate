@@ -6,6 +6,7 @@ var server = new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
     hot: true,
     noInfo: false,
+    historyApiFallback: true,
     stats: {colors: true}
 });
 
