@@ -27,7 +27,7 @@ module.exports = {
       test: /.jsx?$/,
       exclude: /node_modules/,
       loaders: ['react-hot', 'babel-loader?'+JSON.stringify({
-        presets: ['es2015', 'react'],
+        presets: ['es2015', 'react', 'stage-2'],
         plugins: ["transform-class-properties"]
       })],
       include: path.join(__dirname, 'src')
